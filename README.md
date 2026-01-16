@@ -21,8 +21,9 @@ Focused on building strong fundamentals and writing clean, readable code.
 ---
 
 ## 🛠 Requirements
-- Python 3.x
+- Python 3.14 or any version (Try to use latest version)
 - VS Code / Any IDE
+- My personal choice is vscode or Thonny
 
 ---
 
