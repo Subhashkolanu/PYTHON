@@ -21,7 +21,7 @@ Focused on building strong fundamentals and writing clean, readable code.
 ---
 
 ## 🛠 Requirements
-<<<<<<< HEAD
+HEAD
 - Python 3.14 or any version (Try to use latest version)
 - VS Code / Any IDE
 - My personal choice is vscode or Thonny
@@ -30,7 +30,7 @@ Focused on building strong fundamentals and writing clean, readable code.
 - Python 3.14
 - VS Code / Any IDE
 My personal choice is vscode or Thonny
->>>>>>> f528076 (Added voting.py and updated README)
+f528076 (Added voting.py and updated README)   
 ---
 
 ## ▶️ How to Run
