@@ -1,0 +1,10 @@
+a = "Hello vijaywada"
+print(a.upper())
+print(a.lower())
+print(a.swapcase())
+print(a.title())
+print(a.capitalize())
+print(a.find('w'))
+print(a.rfind('a'))
+print(a.index('v'))
+print(a.rindex('v'))
