@@ -1,4 +1,4 @@
-for i in range(1,6):
-    for j in range(i):
-        print("*",end=" ")
-        print( )
+for row in range(1,6):
+    for col in range(row):
+        print("*", end="")
+    print()
