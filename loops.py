@@ -1,5 +1,5 @@
-for row in range(3):
-    for col in range(4):
+for row in range(1,6):
+    for col in range(row):
         print("VVITU", end=" ")
     print()
 print("New")
