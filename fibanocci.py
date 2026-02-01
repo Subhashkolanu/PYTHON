@@ -1,0 +1,10 @@
+n = int(input("Enter no of terms to be diaplayed : "))
+f1=0
+f2=1
+i=1
+while i<=n:
+    print(f1,end = " ")
+    f3=f1+f2
+    f1=f2
+    f2=f3
+    i=i+1
