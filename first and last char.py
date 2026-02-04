@@ -14,5 +14,5 @@ num=int(input('Enter number : '))
 ld = num%10
 while num>10:
     num=num//10
-print("First character : ",num)
-print("Last character : ",ld)
+print("First digit : ",num)
+print("Last digit : ",ld)

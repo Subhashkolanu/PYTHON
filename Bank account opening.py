@@ -1,16 +1,18 @@
 print("Welcome to STATE FEDARAL BANK OF INDIA ")
-login = input('''select login type
-      1.Sign in
-      2.Sign up''')
-if login == "1":
+login = print('''login type
+1.Sign in
+2.Sign up''')
+login = int(input("Enter login type :"))
+if login == 1 :
     ac_no = int(input("Enter your account number : "))
-    password = input("Enter your password : ")
-    if password == ac_no:
-        print("Welcome user ",ac_no)
+    password = int(input("Enter your password : "))
+    if ac_no == password:
+        print("Welcome user",ac_no)
     else:
         print("Incorrect password/Acount number")
-elif login == "2":
-    new_ac = input("create new account? Y/n")
+elif login == 2 :
+    new_ac = print("create new account? Y/n")
+    new_ac=input("Enter your choice  : ")
     if new_ac == "Y":
         name=input("Enter your name : ")
         dob=int(input("Enter age : "))

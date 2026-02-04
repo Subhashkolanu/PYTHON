@@ -35,5 +35,5 @@ for i in range(1,n+1):
 print("New")
 word = "VVITU"
 for i in range(1,len(word)+1):
-    for j in range(i):
-        print(word[j],end = " ")
+        for j in range(i):
+            print(word[j],end = " ")
