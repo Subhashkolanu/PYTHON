@@ -3,52 +3,24 @@ size=input()
 bill=0
 if size=='s' or size=='S':
     bill=bill+150
-    print('Do you want pepper?')
-    pepper=input()
-    if pepper=='yes' or pepper=='Yes':
-        bill=bill+30
-        print('Do you want extra cheese ? ')
-        cheese=input()
-        if cheese=='yes' or cheese=='Yes':
-            bill=bill+50
-            print("Your total is",bill)
-        else:
-            print("Your total is",bill)
-    else:
-        print("Your total is",bill)
-    if bill>400:
-        bill//100*10
 elif size=='m' or size=="M":
     bill=bill+250
-    print('Do you want pepper?')
-    pepper=input()
-    if pepper=='yes' or pepper=='Yes':
-        bill=bill+50
-        print('Do you want extra cheese ? ')
-        cheese=input()
-        if cheese=='yes' or cheese=='Yes':
-            bill=bill+50
-            print("Your total is",bill)
-        else:
-            print("Your total is",bill)
-    else:
-        print("Your total is",bill)
-        if bill>400:
-            bill//100*10
-elif size=='M' or size=='m':
+elif size=='l' or size=='L':
     bill=bill+350
-    print('Do you want pepper?')
-    pepper=input()
-    if pepper=='yes' or pepper=='Yes':
+print("Add pepper? Y/n")
+pepper=input()
+if size=='s' or size=="S":
+    if pepper=='y' or pepper=='Y':
         bill=bill+30
-        print('Do you want extra cheese ? ')
-        cheese=input()
-        if cheese=='yes' or cheese=='Yes':
-            bill=bill+50
-            print("Your total is",bill)
-        else:
-            print("Your total is",bill)
-    else:
-        print("Your total is",bill)
-        if bill>400:
-            bill//100*10
+else:
+    if pepper=="y" or pepper=='Y':
+        bill=bill+50
+print("Add cheese? Y/n")
+cheese=input()
+if cheese=='y' or cheese=='Y':
+    bill=bill+50
+if bill>400:
+    bill=(bill*10)/100
+    print(bill)
+else:
+    print('Your total bill is',bill)
