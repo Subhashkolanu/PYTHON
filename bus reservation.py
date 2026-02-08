@@ -1,5 +1,7 @@
 total_seat=40
 seat=0
+print('Enter no of seats required : ')
+seat=int(input())
 if seat>1:
     print("Only one seat at a time ")
 else:
@@ -14,3 +16,13 @@ else:
             base=ac*seat
         else:
             base=non*seat
+        if age>=5 and age<=12:
+            dis=0.50
+        elif age>=13 and age<=18:
+            dis=0.20
+        elif age>=19 and age<=60:
+            dis=0.00
+        else:
+            dis=0.30
+    base=base-(base*dis)
+    print('Final cost of the bill ',base)
