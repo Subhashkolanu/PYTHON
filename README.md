@@ -29,8 +29,7 @@ HEAD
 =======
 - Python 3.14
 - VS Code / Any IDE
-My personal choice is vscode or Thonny
-f528076 (Added voting.py and updated README)   
+My personal choice is vscode or IDLE
 ---
 
 ## ▶️ How to Run
