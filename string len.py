@@ -1,5 +1,5 @@
-s1 = input("Enter the data in string 1 : ")
-s2 = input("Enter the data in string 2 : ")
+s1 = input("Enter the first string 1 : ")
+s2 = input("Enter the second string 2 : ")
 if len(s1)!=len(s2):
     print("Strings are not of same length")
 else:
