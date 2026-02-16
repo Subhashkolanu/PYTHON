@@ -1,14 +1,14 @@
 import random
-c=['rock','paper','scisors']
+c=['Rock','Paper','Scisors']
 cg=random.choice(c)
 p=input('Enter input :')
 if cg==p:
     print('Its a TIE')
-elif p=='paper' and cg=='rock':
+elif p =='paper' or p == 'PAPER' or p == 'Paper' and cg=='Rock':
     print('Yay! you win')
-elif p=='scisors'and cg=='paper':
+elif p =='Scisors' or p == 'scisors' or p == 'SCISORS' and cg=='paper':
     print('Yay! you win')
-elif p=='rock' and cg=='scisors':
+elif p == 'rock' or p == 'ROCK' or p == 'Rock' and cg=='Scisors':
     print('Yay! you win')
 else:
     print('Game over! You lost...')
