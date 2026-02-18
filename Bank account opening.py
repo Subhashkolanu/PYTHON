@@ -34,4 +34,4 @@ elif login == 2 :
         else:
             print("You are not eligible for Savings account")
 else:
-    print("Request timed!")
+    print("Request timed out !")
