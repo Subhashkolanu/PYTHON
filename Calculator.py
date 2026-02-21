@@ -14,9 +14,8 @@ elif op == "*":
     print("multiplication = ",multplication)
 elif op == "/":
     if b!=0:
-        if b!=0:
             real_division = a/b
-        print("Real division = ",real_division)
+            print("Real division = ",real_division)
     else:
         print("Division is not possible")
 elif op == "//":
