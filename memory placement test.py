@@ -1,4 +1,4 @@
-c=5
+'''c=5
 d=10
 print(id(c))
 print(id(d))
@@ -17,4 +17,13 @@ loc_4 = id(f)
 if loc_3==loc_4:
     print("Both are placed at same location")
 else:
-    print("Both are placed at diffirent locations")
+    print("Both are placed at diffirent locations")'''
+'''OR'''
+a=int(input('Enter integer 1 : '))
+b=int(input('Enter integer 2 : '))
+print(id(a))
+print(id(b))
+if a is b:
+    print('True')
+else:
+    print('False')
