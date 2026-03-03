@@ -1,0 +1,7 @@
+a=input('Enter your words : ')
+a=a.capitalize()
+print(a)
+b=a.lower()
+print(b)
+c=a.upper()
+print(c)
