@@ -11,7 +11,12 @@ Focused on building strong fundamentals and writing clean, readable code.
 - Conditional Statements (if / elif / else)
 - Loops (for / while)
 - Functions & Recursion
-- 
+- Strings & Pattern Programs
+- Lists, Tuples, Sets, Dictionaries
+- File Handling
+- Exception Handling
+- Object-Oriented Programming (OOP)
+- Practice Problems & Mini Programs
 
 ---
 
