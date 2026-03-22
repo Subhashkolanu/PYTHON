@@ -1,0 +1,11 @@
+for d in 19 20 21 22
+do
+  for i in {1..12}
+  do
+    echo "$d-$i" >> streak.txt
+    git add .
+    GIT_AUTHOR_DATE="2026-03-$d 10:$i:00" \
+    GIT_COMMITTER_DATE="2026-03-$d 10:$i:00" \
+    git commit -m "day $d commit $i 🔥"
+  done
+done
