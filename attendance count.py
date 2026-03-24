@@ -8,13 +8,7 @@ for i in range(s):
     a[n]=at_day
 for student,days in a.items():
     p=(days/t)*100
-    i=0
-    e=0
     if p>=75:
         print("Eligible")
-        e=e+1
-    elif p<75:
+    else:
         print("Not eligible")
-        i=i+1
-print("Total no of eligible students : ",e)
-print("Total no of ineligble students : ",i)
