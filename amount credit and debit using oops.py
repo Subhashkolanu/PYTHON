@@ -4,9 +4,9 @@ class Bankacount:
         self.ac_no=Account_No
         self.bal=Balance
     def displaydetails(self):
-        print("Welcome!",self.ac)
-        print("Account no :",self.ac_no)
-        print("Balance :",self.bal)
+        print("Welcome!",self.ac,"Account no :",self.ac_no,"Balance :",self.bal)
+        #print("Account no :",self.ac_no)
+        #print("Balance :",self.bal)
     def credit(self):
         c=int(input("Enter amount to credit : "))
         self.bal+=c
