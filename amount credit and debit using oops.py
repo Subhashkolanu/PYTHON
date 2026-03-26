@@ -6,16 +6,24 @@ class Bankacount:
     def displaydetails(self):
         print("Welcome! ",self.ac)
         print("Account no : ",self.ac_no)
-        print("Balance : ")
+        print("Balance : ",self.bal)
     def credit(self):
-        c=int(input("Enter amount : "))
+        c=int(input("Enter amount to credit : "))
         self.bal+=c
-        print("Ammount credited! /n current balance : ",self.bal)
+        print("Ammount credited!")
+        print("current balance : ",self.bal)
     def debit(self):
-        d=int(input("Enter amount : "))
+        d=int(input("Enter amount to debit: "))
         if d>=self.bal:
             print("Insufficient amount to withdraw")
         else:
             self.bal-=d
-            print("Ammount debited! /n current balance : ",self.bal)
-
+            print("Ammount debited!")
+            print("current balance : ",self.bal)
+n=input("Enter user name : ")
+ac=int(input("Enter account number : "))
+balance=int(input("Enter balance : "))
+user=Bankacount(n,ac,balance)
+user.displaydetails()
+user.credit()
+user.debit()
