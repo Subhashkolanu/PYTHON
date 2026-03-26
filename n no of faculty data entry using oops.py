@@ -12,5 +12,5 @@ for i in range(n):
     n=input("Enter name : ")
     u=int(input("Enter register number : "))
     e=int(input("Enter experience : "))
-    f=fac(n,u,e)
-    f.det()
+f=fac(n,u,e)
+f.det()
