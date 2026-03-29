@@ -5,14 +5,17 @@ class rectangle:
     def __init__(self,length,breadth):
         self.len=length
         self.bre=breadth
+    def area(self):
         print("Area of rectangle :",self.len*self.bre)
 class circle:
     def __init__(self,radius):
         self.r=radius
+    def area(self):
         print("Area of circle :",3.14*self.r*self.r)
 l=float(input("Enter length : "))
 b=float(input("Enter breadth : "))
 ar=rectangle(l,b)
-
+ar.area()
 r=float(input("Enter radius : "))
 ac=circle(r)
+ac.area()
