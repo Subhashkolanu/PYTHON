@@ -1,16 +1,16 @@
-class Animal:
+class A:
     def show(self):
-        print("Dog")
+        print("A")
 
-class wild(Animal):
+class B(A):
     def show(self):
-        print("Tiger")
+        print("B")
 
-class C(Animal):
+class C(A):
     def show(self):
         print("C")
 
-class D(wild, C):
+class D(B, C):
     pass
 
 obj = D()
