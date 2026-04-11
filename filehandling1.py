@@ -1,0 +1,7 @@
+file=open("File1.txt","w")
+print("File is created.")
+a=input("Enter string : ")
+file.write(a)
+print("String stored from input.")
+file.close()
+print("File is closed")
