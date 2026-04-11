@@ -1,4 +1,4 @@
-class A:
+'''class A:
     def show(self):
         print("A")
 
@@ -14,4 +14,11 @@ class D(B, C):
     pass
 
 obj = D()
-obj.show()
+obj.show()'''
+file = open("sample.txt", "r")
+
+print(file.tell())   # current position
+file.seek(5)         # move cursor to index 5
+
+print(file.read())
+file.close()
