@@ -1,0 +1,5 @@
+file=open("python_info.txt","a")
+s=input("Enter string : ")
+file.write(s)
+print(file.read)
+file.close()
