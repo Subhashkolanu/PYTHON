@@ -1,0 +1,11 @@
+from tkinter import *
+root=Tk()
+root.title("Details form")
+root.configure(bg="Green")
+nm=Label(root,text=("Name : Virat"))
+nm.place(x=20,y=40)
+rn=Label(root,text="Roll no : 18")
+rn.place(x=20,y=80)
+br=Label(root,text="Branch : CS")
+br.place(x=20,y=120)
+mainloop()
