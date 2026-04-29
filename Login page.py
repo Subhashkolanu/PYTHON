@@ -11,6 +11,7 @@ e1=Entry(root)
 e2=Entry(root)
 e1.grid(row=0,column=1)
 e2.grid(row=1,column=1)
+e2.config(show="*")
 def login():
     print("Username :",e1.get())
     print("Password : ",e2.get())
