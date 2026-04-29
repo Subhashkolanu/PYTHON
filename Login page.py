@@ -2,7 +2,7 @@ from tkinter import *
 root=Tk()
 root.title("Login page")
 root.geometry("500x500")
-#root.configure(bg="Orange")
+root.configure(bg="Orange")
 l1=Label(root,text="Username")
 l2=Label(root,text="Password")
 l1.grid(row=0,column=0)
