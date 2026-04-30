@@ -1,0 +1,16 @@
+from tkinter import *
+r=Tk()
+r.title("EVM")
+r.geometry("500x500")
+rv=StringVar(value="NOTA")
+def vote():
+    v=rv.get()
+    l.configure(r,text=f"Your vote has been casted to {v}")
+    #print(f"Your vote has been casted to {v}")
+Radiobutton(r,text="Chandrababu Naidu",variable="v",value="Chandrababu naidu").pack()
+Radiobutton(r,text="Jaganmohan Reddy",variable="v",value="Jaganmohan Reddy").pack()
+Radiobutton(r,text="NOTA",variable="v",value="NOTA").pack()
+b=Button(r,text="Submit",command=vote)
+b.pack(pady=50)
+l=Label(r,text=" ")
+mainloop()
