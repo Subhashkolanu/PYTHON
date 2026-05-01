@@ -6,6 +6,8 @@ rv=StringVar(value="NOTA")
 def vote():
     v=rv.get()
     l.configure(text=f"Your vote has been casted to {v}")
+    with open("Ballot_box.txt","a") as fo:
+        fo.write(f"{v}\n")
 Radiobutton(r,text="CYCLE",variable=rv,value="Chandrababu naidu").pack()
 Radiobutton(r,text="FAN",variable=rv,value="Jaganmohan Reddy").pack()
 Radiobutton(r,text="NOTA",variable=rv,value="NOTA").pack()
