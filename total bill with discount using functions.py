@@ -11,8 +11,6 @@ def total_amt(price,quantity,discount=0):
     if discount>0:
         print("Discount :",discount)
         print("Final ammount :",final_amt)
-    else:
-        print("")
 p=float(input("Enter the price : "))
 q=int(input("Enter the quantity : "))
 total_amt(p,q)
