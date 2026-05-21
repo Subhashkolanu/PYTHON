@@ -4,16 +4,13 @@ e=int(input("Experience : "))
 bo=0
 def experience():
     if e>5:
-        #bo=b*(20/100)
-        print("Bonus : ",bo)
+        bo=b*0.20
     else:
-        bo=b*(10/100)
-        #print("Bonus : ",bo)
+        bo=b*(0.10)
     return bo
 bonus=experience()
 def total():
     t=b+bonus
-    #print("Total salary : ",t)
     return t
 total()
 print("-----Salary slip-----")
