@@ -1,5 +1,5 @@
 name="Heisenberg"
-profesion="Cook"
+proffesion="Cook"
 enemy="Gus fring"
-print("I am the "+profesion+" I am the man who killed "+enemy)
+print("I am the "+proffesion+" I am the man who killed "+enemy)
 print("Now say my name "+name+" You're goddamn right")
