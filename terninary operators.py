@@ -2,7 +2,7 @@
 #x if condition is true else y
 
 #Easy
-'''age=int(input("Enter age : "))
+age=int(input("Enter age : "))
 print("Eligible for voting" if age>=18 else "Not eligible")
 
 #Medium
@@ -17,7 +17,7 @@ print("A" if marks>=90 else
       "C" if marks>=70 else 
       "D" if marks>=60 else 
       "E" if marks>=50 else
-      "F")'''
+      "F")
 
 #Extra hard
 a=int(input("Enter number 1 : "))
