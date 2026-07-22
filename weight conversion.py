@@ -1,11 +1,8 @@
-a = int(input('choose the option :\n 1. kilograms to pound\n 2. Pound to kilograms\n'))
-if a == 1:
-    kg=float(input("Enter the weight in kg : "))
-    pound = kg*2.2
-    print(kg,"kg to",pound,"lb")
-elif a==2:
-    pound=float(input("Enter the weight in pounds : "))
-    kg = pound*0.45
-    print(pound,"lb","to",kg,"kg")
+weight = float(input('Enter your weight : '))
+unit = input("Kilograms or pounds (K or L) : ").upper()
+if unit == "K":
+    print(f"{weight} kg to pounds {round(weight*2.205,2)} lbs")
+elif unit=="L":
+    print(f"{weight} pounds to kg {round(weight/2.205,2)} kg's")
 else:
     print("conversion not found!")
