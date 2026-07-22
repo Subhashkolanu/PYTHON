@@ -1,5 +1,5 @@
-a = int(input("Enter the value of a :"))
-b = int(input("Enter the value of b :"))
+a = float(input("Enter the value of a :"))
+b = float(input("Enter the value of b :"))
 print("Choose your operation : +,-,*,/,//,**")
 op = input("Enter your choice : ")
 if op == "+":
