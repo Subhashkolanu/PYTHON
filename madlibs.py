@@ -1,0 +1,10 @@
+adjective1=input("Enter an adjective : ")
+adjective2=input("Enter an adjective : ")
+noun1=input("Enter a noun : ")
+
+print("Who are you?")
+print(f"You all {adjective1} me ")
+print(f"I am the man who {adjective2} gus fring")
+print("Now say my Name")
+print(f"your'e {noun1}")
+print("you are goddamn right")
