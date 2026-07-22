@@ -5,3 +5,5 @@ if unit == "C":
     print(f"{temp}°C to {round((temp*9/5)+32,1)}°F")
 elif unit == "F":
     print(f"{temp}°F to {round((temp-32)*5/9,1)}°C")
+else:
+    print("Invalid conversion")
